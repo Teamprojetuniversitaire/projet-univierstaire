@@ -1,0 +1,99 @@
+version: '3.8'
+
+services:
+  # API Gateway
+  api-gateway:
+    build: ./api-gateway
+    container_name: api-gateway
+    ports:
+      - "5000:5000"
+    environment:
+      - PORT=5000
+      - DEPARTEMENTS_SERVICE_URL=http://service-departements:5001
+      - SPECIALITES_SERVICE_URL=http://service-specialites:5002
+      - MATIERES_SERVICE_URL=http://service-matieres:5003
+      - GROUPES_SERVICE_URL=http://service-groupes:5004
+      - SALLES_SERVICE_URL=http://service-salles:5005
+    depends_on:
+      - service-departements
+      - service-specialites
+      - service-matieres
+      - service-groupes
+      - service-salles
+    networks:
+      - microservices-network
+    restart: unless-stopped
+
+  # Service Départements
+  service-departements:
+    build: ./service-departements
+    container_name: service-departements
+    ports:
+      - "5001:5001"
+    environment:
+      - PORT=5001
+      - SUPABASE_URL=${SUPABASE_URL}
+      - SUPABASE_ANON_KEY=${SUPABASE_ANON_KEY}
+    networks:
+      - microservices-network
+    restart: unless-stopped
+
+  # Service Spécialités
+  service-specialites:
+    build: ./service-specialites
+    container_name: service-specialites
+    ports:
+      - "5002:5002"
+    environment:
+      - PORT=5002
+      - SUPABASE_URL=${SUPABASE_URL}
+      - SUPABASE_ANON_KEY=${SUPABASE_ANON_KEY}
+    networks:
+      - microservices-network
+    restart: unless-stopped
+
+  # Service Matières
+  service-matieres:
+    build: ./service-matieres
+    container_name: service-matieres
+    ports:
+      - "5003:5003"
+    environment:
+      - PORT=5003
+      - SUPABASE_URL=${SUPABASE_URL}
+      - SUPABASE_ANON_KEY=${SUPABASE_ANON_KEY}
+    networks:
+      - microservices-network
+    restart: unless-stopped
+
+  # Service Groupes
+  service-groupes:
+    build: ./service-groupes
+    container_name: service-groupes
+    ports:
+      - "5004:5004"
+    environment:
+      - PORT=5004
+      - SUPABASE_URL=${SUPABASE_URL}
+      - SUPABASE_ANON_KEY=${SUPABASE_ANON_KEY}
+    networks:
+      - microservices-network
+    restart: unless-stopped
+
+  # Service Salles
+  service-salles:
+    build: ./service-salles
+    container_name: service-salles
+    ports:
+      - "5005:5005"
+    environment:
+      - PORT=5005
+      - SUPABASE_URL=${SUPABASE_URL}
+      - SUPABASE_ANON_KEY=${SUPABASE_ANON_KEY}
+    networks:
+      - microservices-network
+    restart: unless-stopped
+
+networks:
+  microservices-network:
+    driver: bridge
