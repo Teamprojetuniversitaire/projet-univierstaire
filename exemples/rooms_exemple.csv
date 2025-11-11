@@ -1,0 +1,6 @@
+code,name,capacity,room_type_id,building,floor,has_projector,has_computers,description
+A101,Amphithéâtre A,200,1,Bâtiment A,1,true,false,Grand amphithéâtre
+A201,Salle TD 201,40,2,Bâtiment A,2,true,false,Salle de TD
+B101,Labo Info 1,30,3,Bâtiment B,1,true,true,Laboratoire informatique
+B102,Labo Info 2,30,3,Bâtiment B,1,true,true,Laboratoire informatique
+C301,Salle TP Chimie,25,3,Bâtiment C,3,false,false,Travaux pratiques chimie

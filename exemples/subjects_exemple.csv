@@ -1,0 +1,6 @@
+name,code,credits,coefficient,department_id,level_id,is_mandatory,description
+Algorithmique,ALGO,6,2.0,1,1,true,Introduction à l'algorithmique
+Base de données,BDD,6,2.0,1,1,true,Systèmes de gestion de bases de données
+Programmation Web,WEB,4,1.5,1,2,true,Développement web HTML/CSS/JS
+Réseaux,NET,5,1.5,1,3,true,Introduction aux réseaux informatiques
+Intelligence Artificielle,IA,6,2.0,1,5,false,Introduction à l'IA

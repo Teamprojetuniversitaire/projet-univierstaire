@@ -1,0 +1,11 @@
+code,nom,prenom,email,telephone,date_naissance,adresse,program_id,level_id,group_id,annee_admission,statut
+ETU001,Dupont,Jean,jean.dupont@example.com,+33612345678,2000-05-15,123 Rue de Paris 75001 Paris,1,1,1,2023,actif
+ETU002,Martin,Sophie,sophie.martin@example.com,+33698765432,2001-08-22,456 Avenue des Champs Lyon,1,1,1,2023,actif
+ETU003,Bernard,Lucas,lucas.bernard@example.com,+33645678901,2000-12-10,789 Boulevard Victor Hugo Marseille,2,1,2,2023,actif
+ETU004,Thomas,Emma,emma.thomas@example.com,+33656789012,2002-03-18,321 Rue de la République Toulouse,2,1,2,2022,actif
+ETU005,Robert,Léa,lea.robert@example.com,+33667890123,2001-07-25,654 Avenue Jean Jaurès Nice,1,2,3,2023,actif
+ETU006,Petit,Hugo,hugo.petit@example.com,+33678901234,2000-11-30,987 Rue Gambetta Nantes,3,2,4,2022,actif
+ETU007,Dubois,Chloé,chloe.dubois@example.com,+33689012345,2001-04-12,159 Boulevard Haussmann Strasbourg,3,2,4,2023,actif
+ETU008,Moreau,Arthur,arthur.moreau@example.com,+33690123456,2002-09-08,753 Rue de Rivoli Montpellier,1,1,1,2021,diplome
+ETU009,Laurent,Manon,manon.laurent@example.com,+33601234567,2000-06-20,486 Avenue Foch Bordeaux,2,2,5,2023,actif
+ETU010,Simon,Nathan,nathan.simon@example.com,+33612345679,2001-01-14,246 Rue Nationale Lille,2,1,2,2022,actif

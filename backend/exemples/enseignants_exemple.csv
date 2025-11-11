@@ -1,0 +1,13 @@
+code,nom,prenom,email,telephone,specialite,grade,department_id,date_embauche,statut,bureau
+ENS001,Durand,Marie,marie.durand@example.com,+33612345678,Informatique,Professeur,1,2015-09-01,actif,B201
+ENS002,Bernard,Pierre,pierre.bernard@example.com,+33698765432,Mathématiques,Maitre de conferences,2,2018-09-01,actif,C105
+ENS003,Lefebvre,Claire,claire.lefebvre@example.com,+33645678901,Physique,Professeur,3,2010-09-01,actif,A303
+ENS004,Moreau,Jean,jean.moreau@example.com,+33656789012,Chimie,Assistant,4,2020-09-01,actif,D102
+ENS005,Simon,Anne,anne.simon@example.com,+33667890123,Biologie,Maitre de conferences,5,2017-02-15,actif,E205
+ENS006,Michel,François,francois.michel@example.com,+33678901234,Génie Civil,Charge de cours,6,2019-09-01,actif,F110
+ENS007,Garcia,Laura,laura.garcia@example.com,+33689012345,Électronique,Professeur,7,2012-09-01,actif,F201
+ENS008,Rodriguez,Carlos,carlos.rodriguez@example.com,+33690123456,Gestion,Vacataire,8,2021-09-01,actif,G101
+ENS009,Martinez,Sofia,sofia.martinez@example.com,+33601234567,Informatique,Maitre de conferences,1,2016-09-01,actif,H205
+ENS010,Lopez,Miguel,miguel.lopez@example.com,+33612345679,Mathématiques,Assistant,2,2022-09-01,actif,H105
+ENS011,Gonzalez,Maria,maria.gonzalez@example.com,+33623456780,Physique,Professeur,3,2008-09-01,retraite,I301
+ENS012,Perez,Antonio,antonio.perez@example.com,+33634567891,Chimie,Charge de cours,4,2019-01-15,actif,J102

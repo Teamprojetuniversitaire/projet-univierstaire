@@ -1,0 +1,6 @@
+name,code,department_id,duration_years,description
+Licence Informatique,LIC-INFO,1,3,Licence en Informatique
+Master Informatique,MST-INFO,1,2,Master en Informatique
+Licence Mathématiques,LIC-MATH,2,3,Licence en Mathématiques
+Master Physique,MST-PHYS,3,2,Master en Physique
+Licence Chimie,LIC-CHIM,4,3,Licence en Chimie

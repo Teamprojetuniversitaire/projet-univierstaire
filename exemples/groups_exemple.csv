@@ -1,0 +1,6 @@
+name,code,level_id,capacity,current_students,description
+Groupe A,GA,1,30,28,Groupe de TD A
+Groupe B,GB,1,30,25,Groupe de TD B
+Groupe C,GC,2,35,32,Groupe de TD C
+Groupe TP1,GTP1,1,15,14,Groupe de travaux pratiques
+Groupe TP2,GTP2,1,15,13,Groupe de travaux pratiques
